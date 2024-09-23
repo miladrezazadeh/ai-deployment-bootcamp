@@ -1,0 +1,7 @@
+{
+    "instances": [
+        {
+            "inputs": ["This is an example sentence to test the embedding model."]
+        }
+    ]
+}

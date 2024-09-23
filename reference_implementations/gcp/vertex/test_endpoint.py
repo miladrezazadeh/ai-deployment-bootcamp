@@ -30,3 +30,4 @@ request = aiplatform_v1.RawPredictRequest(
 
 response = prediction_client.raw_predict(request)
 print(f"Response:\n{response.data}")
+

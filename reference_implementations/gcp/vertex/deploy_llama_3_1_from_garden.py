@@ -62,6 +62,7 @@ TFVARS["endpoint"] = endpoint.name
 TFVARS["model"] = model_name
 save_tfvars(TFVARS, TFVARS_PATH)
 
+print("deploying model ...")
 model.deploy(
     endpoint=endpoint,
     machine_type="g2-standard-8",
