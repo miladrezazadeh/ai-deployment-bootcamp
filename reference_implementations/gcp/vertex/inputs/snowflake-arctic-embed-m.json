@@ -1,7 +1,8 @@
 {
     "instances": [
         {
-            "inputs": ["This is an example sentence to test the embedding model."]
+            "inputs": ["This is an example sentence to test the embedding model.",
+            "our group is amazing!"]
         }
     ]
 }
